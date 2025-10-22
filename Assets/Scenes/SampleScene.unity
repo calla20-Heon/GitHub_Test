@@ -535,6 +535,9 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+<<<<<<< HEAD
+>>>>>>> e612b8c1e745193f053513c701cc9e7a48fe519d
+=======
 >>>>>>> e612b8c1e745193f053513c701cc9e7a48fe519d
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
