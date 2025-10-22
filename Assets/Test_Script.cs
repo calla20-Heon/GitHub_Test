@@ -5,10 +5,11 @@ using UnityEngine;
 public class Test_Script : MonoBehaviour
 {
     Vector3 myVector = new Vector3(0, 0, 0);
+    
     // Start is called before the first frame update
     void Start()
     {
-        
+ 
     }
 
     // Update is called once per frame
@@ -26,5 +27,6 @@ public class Test_Script : MonoBehaviour
         {
             myVector = Vector3.zero;
         }
+        transform.Translate(myVector * 3.0f * Time.deltaTime);
     }
 }
